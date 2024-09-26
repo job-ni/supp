@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Your Website</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f9f9f9;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+        }
+
+        header .logo {
+            font-size: 24px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        nav {
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        nav ul {
+            list-style-type: none;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        .hero {
+            background: url('images/5.jpg') no-repeat center center/cover;
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+            flex-direction: column;
+        }
+
+        .hero h1 {
+            color: Brown;
+            font-size: 40px;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 20px;
+            margin-bottom: 30px;
+        }
+
+        .cta-buttons {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .cta-buttons a {
+            padding: 15px 30px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 18px;
+            width: 200px; /* Fixed width to make buttons even */
+            text-align: center; /* Ensure text is centered */
+        }
+
+        .featured-listings, .testimonials, .purpose-section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .featured-listings h2, .testimonials h2, .purpose-section h2 {
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+
+        .featured-listings .listing, .testimonials .testimonial, .purpose-section .details {
+            margin-bottom: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="logo">(Logo)</div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Connecting Businesses & Suppliers</h1>
+        <p>Your one-stop solution to building valuable partnerships</p>
+        <div class="cta-buttons">
+            <a href="#">Join as a Supplier</a>
+            <a href="#">Join as a Business Owner</a>
+        </div>
+    </section>
+
+    <!-- Purpose of Website -->
+    <section class="purpose-section">
+        <h2>Purpose of the Website</h2>
+        <div class="details">
+            <p>This platform is designed to connect local business owners with reliable suppliers, creating a seamless experience for both parties to collaborate and thrive.</p>
+        </div>
+        <h2>Target Audience</h2>
+        <div class="details">
+            <p>Our platform primarily caters to:</p>
+            <ul>
+                <li>Local business owners looking for suppliers to expand their operations.</li>
+                <li>Potential suppliers who want to grow their client base by providing high-quality products to businesses.</li>
+            </ul>
+        </div>
+        <h2>Value Proposition</h2>
+        <div class="details">
+            <p>We provide a streamlined, efficient solution to help businesses and suppliers form successful, long-lasting partnerships. Whether you're a business owner in need of supplies or a supplier seeking clients, our platform simplifies the process of making the right connections.</p>
+        </div>
+    </section>
+
+    <!-- Featured Listings -->
+    <section class="featured-listings">
+        <h2>Featured Listings</h2>
+        <div class="listing">
+            <h3>Successful Connection #1</h3>
+            <p>A business and a supplier who found success through our platform.</p>
+        </div>
+        <div class="listing">
+            <h3>Successful Connection #2</h3>
+            <p>Another business-supplier collaboration made possible.</p>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <h2>Testimonials</h2>
+        <div class="testimonial">
+            <p>"This platform helped me find the perfect supplier for my business. Highly recommend!" - Business Owner</p>
+        </div>
+        <div class="testimonial">
+            <p>"Joining as a supplier was the best decision. The platform has expanded my client base." - Supplier</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Your Website. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
