@@ -109,6 +109,40 @@
             text-align: center;
             margin-top: 40px;
         }
+    
+        .container {
+            width: 80%;
+            margin: 20px auto;
+        }
+    
+        .form-section, .search-section, .notification-section, .chat-support-section {
+            margin: 20px 0;
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+    
+        h2 {
+            margin-bottom: 10px;
+        }
+
+        input[type="text"], input[type="email"], input[type="password"], select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
     </style>
 </head>
 <body>
@@ -179,6 +213,27 @@
             <p>"Joining as a supplier was the best decision. The platform has expanded my client base." - Supplier</p>
         </div>
     </section>
+    
+    <!-- Search and Filter Section -->
+        <section class="search-section">
+            <h2>Search and Filter Suppliers</h2>
+            <input type="text" placeholder="Search Suppliers" required>
+            <select>
+                <option value="" disabled selected>Filter by Category</option>
+                <option value="food">Food Suppliers</option>
+                <option value="materials">Material Suppliers</option>
+                <option value="technology">Tech Suppliers</option>
+            </select>
+            <button type="submit">Search</button>
+        </section>
+
+        <!-- Chat/Support Section -->
+        <section class="chat-support-section">
+            <h2>Chat/Support</h2>
+            <p>Need help? Chat with us now!</p>
+            <button>Open Chat</button> <!-- Placeholder for chat feature -->
+        </section>
+    </div>
 
     <!-- Footer -->
     <footer>
